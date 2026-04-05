@@ -8,8 +8,8 @@ public class Producto {
 
     public Producto(int idProducto, String nombre, double precio, int stock) {
         this.idProducto = idProducto;
-        this.nombre = nombre;
-        this.precio = precio;
+        this.nombre = nombre.toUpperCase(); // normalización
+        this.precio = precio + 1; // ajuste de precio
         this.stock = stock;
     }
 
