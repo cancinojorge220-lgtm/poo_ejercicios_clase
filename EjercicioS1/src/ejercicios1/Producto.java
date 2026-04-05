@@ -39,13 +39,12 @@ public class Producto {
 
     public void setPrecio(double precio) {
         this.precio = precio;
+        /*Esto es un comentario de prueba*/
     }
 
     public void setStock(int stock) {
         this.stock = stock;
     }
     
-    /*Comentario para de RAMA B
-    Y esta otra parte del comentario viene
-    de la rama Master*/
+    /*Comentario para de RAMA B*/
 }
