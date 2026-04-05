@@ -6,11 +6,11 @@ public class Producto {
     private double precio;
     private int stock;
 
-    public Producto(int idProducto, String nombre, double precio, int stock) {
-        this.idProducto = idProducto;
-        this.nombre = nombre;
-        this.precio = precio;
-        this.stock = stock;
+    public Producto() {
+        this.idProducto = 0;
+        this.nombre = "";
+        this.precio = 0.00;
+        this.stock = 0;
     }
 
     public int getIdProducto() {
@@ -44,7 +44,5 @@ public class Producto {
     public void setStock(int stock) {
         this.stock = stock;
     }
-    
-    /*Comentario para de RAMA B*/
-    
+        
 }
