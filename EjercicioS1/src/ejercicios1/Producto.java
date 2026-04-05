@@ -6,20 +6,12 @@ public class Producto {
     private double precio;
     private int stock;
 
-<<<<<<< HEAD
-    public Producto() {
-        this.idProducto = 0;
-        this.nombre = "";
-        this.precio = 0.00;
-        this.stock = 0;
-=======
-    public Producto(int idProducto, String nombre, double precio, int stock) {
-        this.idProducto = idProducto;
-        this.nombre = nombre.toUpperCase(); // normalización
-        this.precio = precio + 1; // ajuste de precio
-        this.stock = stock;
->>>>>>> ramab
-    }
+public Producto(int idProducto, String nombre, double precio, int stock) {
+    this.idProducto = idProducto;
+    this.nombre = nombre.toUpperCase();
+    this.precio = precio + 1;
+    this.stock = stock;
+}
 
     public int getIdProducto() {
         return idProducto;
