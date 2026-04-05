@@ -46,5 +46,6 @@ public class Producto {
     }
     
     /*Comentario para de RAMA B
-    Y esta otra parte del comentario viende la rama Master*/
+    Y esta otra parte del comentario viene
+    de la rama Master*/
 }
