@@ -45,5 +45,6 @@ public class Producto {
         this.stock = stock;
     }
     
-    /*Comentario para de RAMA B*/
+    /*Comentario para de RAMA B
+    Y esta otra parte del comentario viende la rama Master*/
 }
