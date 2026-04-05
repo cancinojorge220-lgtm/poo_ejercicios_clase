@@ -29,7 +29,23 @@ public class Producto {
         return stock;
     }
     
-    
+
+    public void setIdProducto(int idProducto) {
+        this.idProducto = idProducto;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
+ 
+        
     /*Comentario para rama B*/
-    
 }
