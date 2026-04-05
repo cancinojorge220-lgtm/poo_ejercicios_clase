@@ -29,7 +29,6 @@ public class Producto {
         return stock;
     }
     
-
     public void setIdProducto(int idProducto) {
         this.idProducto = idProducto;
     }
@@ -45,7 +44,6 @@ public class Producto {
     public void setStock(int stock) {
         this.stock = stock;
     }
- 
-        
+   
     /*Comentario para rama B*/
 }
