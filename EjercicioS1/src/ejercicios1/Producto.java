@@ -45,5 +45,5 @@ public class Producto {
         this.stock = stock;
     }
     
-    
+    /*Comentario para de RAMA B*/
 }
