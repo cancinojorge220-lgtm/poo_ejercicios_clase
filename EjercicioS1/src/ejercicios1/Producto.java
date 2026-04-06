@@ -1,5 +1,6 @@
 package ejercicios1;
 
+//cambio de prueba investigacion 
 public class Producto {
     private int idProducto;
     private String nombre;
