@@ -6,12 +6,14 @@ public class Producto {
     private String nombre;
     private double precio;
     private int stock;
+    private String pais;
 
-public Producto(int idProducto, String nombre, double precio, int stock) {
+public Producto(int idProducto, String nombre, double precio, int stock, String pais) {
     this.idProducto = idProducto;
     this.nombre = nombre.toUpperCase();
     this.precio = precio + 1;
     this.stock = stock;
+    this.pais = pais;
 }
 
     public int getIdProducto() {
@@ -29,6 +31,10 @@ public Producto(int idProducto, String nombre, double precio, int stock) {
     public int getStock() {
         return stock;
     }
+    
+    public String getPais() {
+        return pais;
+    } 
 
     public void setIdProducto(int idProducto) {
         this.idProducto = idProducto;
@@ -44,6 +50,10 @@ public Producto(int idProducto, String nombre, double precio, int stock) {
 
     public void setStock(int stock) {
         this.stock = stock;
+    }
+    
+    public void setPais(String pais){
+    this.pais = pais;
     }
         
 }
