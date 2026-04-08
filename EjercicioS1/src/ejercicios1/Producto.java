@@ -10,8 +10,8 @@ public class Producto {
 
     public Producto(int idProducto, String nombre, double precio, int stock, String pais) {
         this.idProducto = idProducto;
-        this.nombre = nombre.toUpperCase();
-        this.precio = precio + 1;
+        this.nombre = nombre;
+        this.precio = precio;
         this.stock = stock;
         this.pais = pais;
     }
@@ -23,9 +23,7 @@ public class Producto {
         this.stock = 0;
         this.pais = "";
     }
-    
-    
-    
+        
     public int getIdProducto() {
         return idProducto;
     }
