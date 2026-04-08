@@ -6,14 +6,12 @@ public class Producto {
     private String nombre;
     private double precio;
     private int stock;
-    private String pais;
 
-    public Producto(int idProducto, String nombre, double precio, int stock, String pais) {
+    public Producto(int idProducto, String nombre, double precio, int stock) {
         this.idProducto = idProducto;
         this.nombre = nombre;
         this.precio = precio;
         this.stock = stock;
-        this.pais = pais;
     }
 
     public Producto() {
@@ -21,9 +19,9 @@ public class Producto {
         this.nombre = "";
         this.precio = 0.0;
         this.stock = 0;
-        this.pais = "";
     }
-        
+
+
     public int getIdProducto() {
         return idProducto;
     }
@@ -39,10 +37,6 @@ public class Producto {
     public int getStock() {
         return stock;
     }
-    
-    public String getPais() {
-        return pais;
-    } 
 
     public void setIdProducto(int idProducto) {
         this.idProducto = idProducto;
@@ -59,9 +53,5 @@ public class Producto {
     public void setStock(int stock) {
         this.stock = stock;
     }
-    
-    public void setPais(String pais){
-    this.pais = pais;
-    }
-        
+
 }
