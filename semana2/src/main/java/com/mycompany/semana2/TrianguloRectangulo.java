@@ -34,6 +34,7 @@ public class trianguloRectangulo {
     public double calcularHipotenusa() {
         double res;
         res = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
+        res = Math.round(res * 100.0) / 100.0;
         return res;
     }
     
@@ -41,6 +42,7 @@ public class trianguloRectangulo {
     public double calcularPerimetro() {
         double res;
         res = cateto1 + cateto2 + calcularHipotenusa();
+        res = Math.round(res * 100.0) / 100.0;
         return res;
     }
 }

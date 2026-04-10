@@ -17,7 +17,10 @@ public class Semana2 {
         System.out.println("El Volumen del Cilindro es: " + cil.Volumen());
                 
         //Manejo de Triangulo Rectangulo
-        
+        trianguloRectangulo tr = new trianguloRectangulo(2,1);
+        System.out.println("El Área del Triangulo Rectangulo es: " + tr.calcularArea());
+        System.out.println("La Hipotenusa es: " + tr.calcularHipotenusa());
+        System.out.println("El Perímetro es : " + tr.calcularPerimetro());
     }
 
 }
