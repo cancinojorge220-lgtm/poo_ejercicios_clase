@@ -1,16 +1,16 @@
 package com.mycompany.semana2;
 
-public class TrianguloRectangulo {
+public class trianguloRectangulo {
     //Atributos
     private double cateto1;
     private double cateto2;
 
     //Constructores
-    public TrianguloRectangulo() {
+    public trianguloRectangulo() {
 
     }
     
-    public TrianguloRectangulo(double cateto1, double cateto2) {
+    public trianguloRectangulo(double cateto1, double cateto2) {
         this.cateto1 = cateto1;
         this.cateto2 = cateto2;
     }
